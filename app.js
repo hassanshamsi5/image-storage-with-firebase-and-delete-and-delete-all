@@ -46,6 +46,7 @@ const uploadFile = (file) => {
         );
     })
 }
+
 upload.addEventListener('click', async () => {
     try {
         let file = document.getElementById('file')
@@ -57,7 +58,6 @@ upload.addEventListener('click', async () => {
         console.log(err);
     }
 })
-
 let deletebtn = document.getElementById('delete')
 deletebtn.addEventListener('click', async () => {
     try {

@@ -46,8 +46,6 @@ const uploadFile = (file) => {
         )
     })
 }
-
-
 upload.addEventListener('click', async () => {
     try {
         let file = document.getElementById('file')

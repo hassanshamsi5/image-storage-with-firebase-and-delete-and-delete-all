@@ -60,20 +60,6 @@ upload.addEventListener('click', async () => {
 })
 
 
-// let deletebtn = document.getElementById('delete')
-// deletebtn.addEventListener('click',()=>{
-
-// const desertRef = ref(storage, 'images/');
-
-
-// deleteObject(desertRef).then((res) => {
-// console.log(res);
-// }).catch((error) => {
-// console.log(error);
-// });
-
-// })
-
 let deletebtn = document.getElementById('delete')
 deletebtn.addEventListener('click', async () => {
     try {

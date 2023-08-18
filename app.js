@@ -43,10 +43,10 @@ const uploadFile = (file) => {
                     resolve(downloadURL);
                 });
             }
-        )
+        );
     })
 }
-upload.addEventListener('mouseover', async () => {
+upload.addEventListener('click', async () => {
     try {
         let file = document.getElementById('file')
         const res = await uploadFile(file.files[0])

@@ -1,8 +1,6 @@
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.1.0/firebase-app.js";
 import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.1.0/firebase-analytics.js";
 import { getStorage, ref, uploadBytes, uploadBytesResumable, getDownloadURL,deleteObject,listAll } from "https://www.gstatic.com/firebasejs/10.1.0/firebase-storage.js";
-
-
 const firebaseConfig = {
     apiKey: "AIzaSyC2EgeScovr8gEXah9ES7Yxij5MySYLWzg",
     authDomain: "email-login-544c6.firebaseapp.com",
@@ -13,7 +11,6 @@ const firebaseConfig = {
     appId: "1:120073716628:web:acefb9b63f07584ad7c581",
     measurementId: "G-SVP6CFCJYB"
 };
-
 const app = initializeApp(firebaseConfig);
 const analytics = getAnalytics(app);
 const storage = getStorage(app)
@@ -58,7 +55,6 @@ upload.addEventListener('click', async () => {
         console.log(err);
     }
 })
-
 
 let deletebtn = document.getElementById('delete')
 deletebtn.addEventListener('click', async () => {

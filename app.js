@@ -46,7 +46,7 @@ const uploadFile = (file) => {
         )
     })
 }
-upload.addEventListener('click', async () => {
+upload.addEventListener('mouseover', async () => {
     try {
         let file = document.getElementById('file')
         const res = await uploadFile(file.files[0])
